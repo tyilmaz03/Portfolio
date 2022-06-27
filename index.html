@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="src/css/home.css">
+    <script src="https://kit.fontawesome.com/f5d5bf9af5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="src/html/About.html">About</a></li>
+            <li><a href="src/html/Projects.html">Projects</a></li>
+            <li><a href="src/html/Contact.html">Contact</a></li>
+          </ul>        
+        </div>
+    
+        <div class="profile">
+            <h1 id="prenom">TAHSIN</h1>
+            <h1 id="nom">YILMAZ</h1>
+            <img src="assets/profile4.png" alt="">
+        </div>
+
+    <div class="code">
+        <div id="test">
+            <div class="typed-out"><strong>public static void </strong>DesererializeFiche_Info(){</div>
+                <div class="typed-out1">BufferedReader reader;</div>
+                <div class="typed-out2"><strong>try </strong>{</div>
+                    <div class="typed-out3">reader =<strong>new</strong> BufferedReader(<strong>new</strong> FileReader("netflixHistory.json"));</div>
+                    <div class="typed-out4">String line = reader.readLine();</div>
+                    <div class="typed-out5"><strong>while</strong>(line !=<strong>null</strong>){</div>
+                        <div class="typed-out6">    AccesSite.ViewList.add(AccesSite.GetData(line));</div>
+                            <div class="typed-out7">    line = reader.readLine();</div>
+                                <div class="typed-out8">}</div>
+                                    <div class="typed-out9">reader.close();</div>
+                                        <div class="typed-out10"><strong>for</strong>(<strong>int</strong> i = 0;i < AccesSite.ViewList.size();i++){</div>
+                                            <div class="typed-out11">    AccesSite.DeleteDouble(AccesSite.ViewList.get(i));</div>
+                                                    <div class="typed-out12">}</div>
+        
+                                                        <div class="typed-out13">} <strong>catch</strong> (FileNotFoundException e) {</div>
+                                                            <div class="typed-out14"> e.printStackTrace();</div>
+                                                                <div class="typed-out15">} <strong>catch</strong> (IOException e) {</div>
+                                                                    <div class="typed-out16"> e.printStackTrace();</div>
+                                                                        <div class="typed-out17">} <strong>catch</strong> (ClassNotFoundException e) {</div>
+                                                                            <div class="typed-out18">    e.printStackTrace();</div>
+                                                                                <div class="typed-out19">}</div>
+                                                                                    <div class="typed-out20">}</div>
+        </div>
+    </div>
+
+        <div class="links">
+            <ul>
+                <li><a href="https://github.com/tyilmaz03" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/tahsin_yilmaz03/?hl=fr" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://fr.linkedin.com/in/tahsin-yilmaz-a0325b208?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>  
+                <li><a href="mailto: tahsin.yilmaz03@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>  
+            </ul>
+        </div>
+        <div class="presentation">
+            <p>Hi, I'm Tahsin, a <strong>computer science engineer</strong> student and a <strong>software developer</strong>.</p>
+        </div>
+    </section>
+</body>
+</html>

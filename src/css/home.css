@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    /* background: #000000;  */
+    background: rgb(5, 5, 29);
+
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+
+img:hover{
+    opacity: 0.7;
+}
+
+h1{
+    color:white;
+}
+
+#prenom {
+    position: absolute;
+    font-size: 400%;
+    top: -15%;
+    right: 10%;
+}
+
+#nom {
+    position: absolute;
+    font-size: 400%;
+    top: 2%;
+    right: -25%;
+}
+
+#test{
+    position: absolute;
+    left: 50px;
+    width: 400px;
+    top:100px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.profile{
+    position: relative;
+    margin-top: 100px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+
+.presentation{
+    color: white;
+}
+
+.presentation p{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+ .navbar {
+    position:fixed ;
+    top: 0;
+    width: 100%;  
+    /* box-shadow: 0 2px 4px 0 red;   */
+
+}
+
+/* .navbar div{
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.navbar ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+i {
+    color: cyan;
+    font-size: 20px;
+    margin:0 0 10px 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+}
+
+
+
+strong{
+    color: yellow;
+}
+
+.code{
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: white;
+    
+}
+
+.c2{
+    display: inline-block;
+    margin-top: 5%;
+}
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    
+    width: 0;
+}
+
+.typed-out1{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 1s;
+}
+
+.typed-out2{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 2s;
+}
+.typed-out3{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 3s;
+}
+.typed-out4{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 4s;
+}
+.typed-out5{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 5s;
+}
+.typed-out6{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 6s;
+}
+.typed-out7{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 7s;
+}
+.typed-out8{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 8s;
+}
+.typed-out9{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 9s;
+}
+.typed-out10{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 10s;
+}
+.typed-out11{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 11s;
+}
+.typed-out12{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 12s;
+}
+.typed-out13{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 13s;
+}
+.typed-out14{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 14s;
+}
+.typed-out15{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 15s;
+}
+.typed-out16{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 16s;
+}
+.typed-out17{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 17s;
+}
+.typed-out18{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 18s;
+}
+.typed-out19{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 19s;
+}
+.typed-out20{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: cyan;
+    animation: 
+      typing 1.5s steps(20, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+    animation-delay: 20s;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%; }
+}
+@keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: orange; }
+}

@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: rgb(5, 5, 29);
+
+
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.navbar {
+    position:fixed ;
+    top: 0;
+    width: 100%;  
+    color: aqua;
+    /* box-shadow: 0 2px 4px 0 red;   */
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.navbar ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+i {
+    color: cyan;
+    font-size: 20px;
+    margin:0 0 10px 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+}
+
+.title {
+    color: white;
+    font-size: 150%;
+
+}
+
+#about{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#me{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+
+
+.btn{
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+}
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.presentation{
+    max-width: 1000px;
+    color: white;
+    font-size: 150%;
+}
